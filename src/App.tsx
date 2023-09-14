@@ -9,7 +9,7 @@ function App() {
     <>
       <h3>React Switch Component</h3>
 
-      <div>
+      <div className='field-container'>
         <label htmlFor="select-input">Possible values:</label>
         <select id="select-input" onChange={(e) => setCondition(e.target?.value)}>
           <option>Not defined</option>
@@ -20,13 +20,13 @@ function App() {
 
       <Switch condition={condition}>
         <Switch.Case when={1}>
-          <div>1</div>
+          <div className="case-item">1</div>
         </Switch.Case>
         <Switch.Case when={2}>
-          <div>2</div>
+          <div className="case-item">2</div>
         </Switch.Case>
         <Switch.Default>
-          <div>Default</div>
+          <div className="case-item">Default</div>
         </Switch.Default>
       </Switch>
     </>

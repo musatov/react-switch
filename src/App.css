@@ -4,3 +4,26 @@
   padding: 2rem;
   text-align: center;
 }
+
+.field-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.field-container label {
+  margin-bottom: 0.5rem;
+  align-self: flex-start;
+}
+
+.field-container select {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.case-item {
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: #f9f9f9;
+  color: #213547;
+  padding: 0.5rem;
+}
