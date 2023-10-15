@@ -5,12 +5,12 @@
   text-align: center;
 }
 
-.field-container {
+.field-container, .switch-section-container {
   display: flex;
   flex-direction: column;
 }
 
-.field-container label {
+.label {
   margin-bottom: 0.5rem;
   align-self: flex-start;
 }
